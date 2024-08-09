@@ -1,0 +1,81 @@
+.word h1,span{
+    font-family: 'PT Serif', serif;
+}
+.background{
+    position: relative;
+}
+.word{
+    position: absolute;
+    left: 35%;
+    top:45%;
+    z-index: 500;
+    background-attachment: fixed;
+}
+.custom-font{
+    font-size: 70px;
+    font-weight: 1000;
+    background-image: linear-gradient(43deg, #b9b9b9 20%, #2a4e6a 60%, #4a7c9b 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/*Ipad pro*/
+@media screen and (max-width: 1024px){
+    .word{
+        left: 35%;
+        top: 50%;
+     }
+     .custom-font{
+        font-size: 45px;
+
+    }
+    .myvid{
+        background-color: rgb(1, 1, 16);
+        padding-top: 68px;
+    }
+}
+
+/*Ipad air*/
+@media screen and (max-width: 820px){
+    .word{
+        left: 35%;
+        top: 50%;
+     }
+     .custom-font{
+        font-size: 38px;
+    }
+    .myvid{
+        background-color: rgb(1, 1, 16);
+        padding-top: 68px;
+    }
+}
+
+/*Iphone 14 pro max*/
+@media screen and (max-width: 440px){
+    .word{
+        left: 33%;
+        top: 55%;
+     }
+     .custom-font{
+        font-size: 22px;
+    }
+     .myvid{
+        background-color: rgb(1, 1, 16);
+        padding-top: 68px;
+    }
+}
+/*Iphone 12*/
+@media screen and (max-width: 400px){
+    .word{
+
+       left: 33%;
+       top: 55%;
+     }
+     .custom-font{
+        font-size: 20px;
+    }
+    .myvid{
+        background-color: rgb(1, 1, 16);
+        padding-top: 68px;
+    }
+}
